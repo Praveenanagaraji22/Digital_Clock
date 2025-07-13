@@ -44,6 +44,23 @@ h1 {
   animation: blink 1s step-start infinite;
 }
 
+#toggleFormat {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #ffcc70;
+  color: #1e1e2f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#toggleFormat:hover {
+  background-color: #ffdb95;
+}
+
+
 @keyframes blink {
   50% {
     opacity: 0;
