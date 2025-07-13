@@ -44,7 +44,7 @@ h1 {
   animation: blink 1s step-start infinite;
 }
 
-#toggleFormat {
+#switchbtn {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 14px;
@@ -56,7 +56,7 @@ h1 {
   transition: background 0.3s;
 }
 
-#toggleFormat:hover {
+#switchbtn:hover {
   background-color: #ffdb95;
 }
 

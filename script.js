@@ -20,7 +20,7 @@ function updateClock() {
   document.getElementById('date').innerText = now.toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-document.getElementById('toggleFormat').onclick = () => {
+document.getElementById('switchbtn').onclick = () => {
   is24 = !is24;
   toggleFormat.textContent = is24 ? 'Switch to 12-Hour' : 'Switch to 24-Hour';
   updateClock();
