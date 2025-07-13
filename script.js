@@ -22,7 +22,7 @@ function updateClock() {
 
 document.getElementById('switchbtn').onclick = () => {
   is24 = !is24;
-  toggleFormat.textContent = is24 ? 'Switch to 12-Hour' : 'Switch to 24-Hour';
+  switchbtn.textContent = is24 ? 'Switch to 12-Hour' : 'Switch to 24-Hour';
   updateClock();
 };
 
